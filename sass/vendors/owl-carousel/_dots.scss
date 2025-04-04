@@ -1,0 +1,18 @@
+.owl-carousel {
+	.owl-dots {
+		@include flex(flex, row wrap, center, center);
+		gap: 5px;
+		margin-top: 15px;
+		.owl-dot {
+			width: 10px;
+			height: 6px;
+			border-radius: 5px;
+			background-color: var(--#{$prefix}card-icon-bg);
+			transition: $transition-base;
+			&.active {
+				width: 15px;
+				background-color: var(--#{$prefix}card-icon-color);
+			}
+		}
+	}
+}

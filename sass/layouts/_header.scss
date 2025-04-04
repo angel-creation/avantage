@@ -1,0 +1,33 @@
+.#{$prefix}header {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	background-color: $black;
+	-webkit-transition: all ease-out 0.5s;
+	-moz-transition: all ease-out 0.5s;
+	-o-transition: all ease-out 0.5s;
+	transition: all ease-out 0.5s;
+	.#{$prefix}header-wrapper {
+		.#{$prefix}menu {
+			li {
+				a {
+					color: $white;
+					transition: 0.5s all;
+
+					&:hover {
+						transition: 0.5s all;
+						color: $red !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+.active {
+	color: $red !important;
+}
+
+.header-fix {
+	background-color: rgba($color: #181818, $alpha: 0.8);
+}

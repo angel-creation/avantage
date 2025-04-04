@@ -1,0 +1,42 @@
+.entry-content {
+	.card {
+		position: relative;
+		display: block;
+		transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+		&:hover {
+			box-shadow: rem(10) rem(15) rem(25) 0 rgba(0, 0, 0, 0.2) !important;
+		}
+	}
+
+	.card .glow-wrap {
+		overflow: hidden;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		margin-top: -10px;
+	}
+
+	.card .glow {
+		display: block;
+		position: absolute;
+		width: 40%;
+		height: 200%;
+		background: rgba(255, 255, 255, 0.7);
+
+		top: 0;
+		filter: blur(5px);
+		transform: rotate(45deg) translate(-450%, 0);
+		transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+	}
+	.card:hover img,
+	.card:hover .glow-wrap {
+		margin-top: 0;
+	}
+
+	.card:hover .glow {
+		transform: rotate(45deg) translate(450%, 0);
+		transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+	}
+}

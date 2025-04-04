@@ -1,0 +1,24 @@
+.#{$prefix}blog-wrapper {
+	.#{$prefix}letest-blog-wrapper {
+		transition: 0.5s all ease-in-out;
+
+		&:hover {
+			box-shadow: rem(10) rem(15) rem(25) 0 rgba(0, 0, 0, 0.2) !important;
+		}
+		.#{$prefix}letest-blog-img-content {
+			top: 10px;
+		}
+		.#{$prefix}avt-letest-blog-img-content {
+			.btn {
+				&:hover {
+					background-color: $primary !important;
+					transition: 0.5s all;
+					color: $white;
+				}
+			}
+			a {
+				width: fit-content !important;
+			}
+		}
+	}
+}

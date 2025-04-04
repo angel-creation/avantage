@@ -1,0 +1,16 @@
+.#{$prefix}after-banner {
+	.#{$prefix}after-banner-wrapper {
+		background: url(../../assets/media/after-banner-555.webp);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: -200px;
+		background-attachment: fixed;
+
+		.overlay {
+			width: 100%;
+			height: 100%;
+			background-color: rgba($color: #ffff, $alpha: 0.7);
+		}
+	}
+}

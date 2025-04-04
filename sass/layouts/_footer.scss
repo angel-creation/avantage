@@ -1,0 +1,12 @@
+.#{$prefix}footer {
+	ul {
+		a {
+			color: $white;
+
+			&:hover {
+				color: $primary;
+				transition: 0.5s all;
+			}
+		}
+	}
+}

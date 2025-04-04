@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>avantage</title>
+		<link rel="icon" type="image/x-icon" href="assets/media/favicon.jpg">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/main.min.css">
+	</head>
+	<body>
+		<div class="offcanvas bg-black offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			<div class="offcanvas-header d-flex justify-content-center mt-5">
+				<div class="rta-brand">
+					<a href="index.html" aria-label="brand-logo" class="rta-brand-logo">
+						<svg width="136" height="86" viewBox="0 0 136 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M64.4688 3.03369C63.3996 3.03369 62.3742 3.45841 61.6182 4.21442C60.8622 4.97042 60.4375 5.99579 60.4375 7.06494V8.40869H51.0312C49.9621 8.40869 48.9367 8.83341 48.1807 9.58942C47.4247 10.3454 47 11.3708 47 12.4399V16.1594L67.4626 21.6151C68.1424 21.7961 68.8576 21.7961 69.5374 21.6151L90 16.1594V12.4399C90 11.3708 89.5753 10.3454 88.8193 9.58942C88.0633 8.83341 87.0379 8.40869 85.9688 8.40869H76.5625V7.06494C76.5625 5.99579 76.1378 4.97042 75.3818 4.21442C74.6258 3.45841 73.6004 3.03369 72.5312 3.03369H64.4688ZM64.4688 5.72119H72.5312C72.8876 5.72119 73.2294 5.86276 73.4814 6.11477C73.7334 6.36677 73.875 6.70856 73.875 7.06494V8.40869H63.125V7.06494C63.125 6.70856 63.2666 6.36677 63.5186 6.11477C63.7706 5.86276 64.1124 5.72119 64.4688 5.72119Z" fill="#5C8374" />
+							<path d="M47 36.9354C47 38.0045 47.4247 39.0299 48.1807 39.7859C48.9367 40.5419 49.9621 40.9666 51.0312 40.9666H85.9688C87.0379 40.9666 88.0633 40.5419 88.8193 39.7859C89.5753 39.0299 90 38.0045 90 36.9354V21.751L68.8467 27.3867C68.6195 27.4473 68.3805 27.4473 68.1533 27.3867L47 21.751V36.9354Z" fill="#93B1A6" />
+							<path d="M0.328 77V76.496L2.68 75.536L9.616 57.32H10L16.552 76.136L18.76 76.496V77H11.704V76.496L13.672 76.184L11.632 70.496H5.248L3.304 75.536L5.464 76.496V77H0.328ZM5.44 69.992H11.464L8.584 61.544L5.44 69.992ZM23.9954 77.48L17.0834 58.664L15.1634 58.328V57.8H22.1954V58.328L19.9394 58.616L25.2194 72.992L30.4034 59.408L27.6434 58.328V57.8H32.8034V58.328L31.0514 59.384L24.1874 77.48H23.9954ZM29.1327 77V76.496L31.4847 75.536L38.4207 57.32H38.8047L45.3567 76.136L47.5647 76.496V77H40.5087V76.496L42.4767 76.184L40.4367 70.496H34.0527L32.1087 75.536L34.2687 76.496V77H29.1327ZM34.2447 69.992H40.2687L37.3887 61.544L34.2447 69.992ZM48.0867 77V76.496L50.3187 75.536V59.264L48.0867 58.328V57.8H52.5507L62.8947 72.296V59.264L60.6627 58.328V57.8H65.7747V58.328L63.4947 59.264V77H62.8947L50.9187 60.176V75.536L53.2227 76.496V77H48.0867ZM71.4736 77V76.496L73.6816 76.136V58.4H69.7216L67.8976 63.152H67.2016V57.8H82.8256V63.152H82.1056L80.3056 58.4H76.3216V76.136L78.5296 76.496V77H71.4736ZM81.0467 77V76.496L83.3988 75.536L90.3348 57.32H90.7188L97.2708 76.136L99.4788 76.496V77H92.4228V76.496L94.3907 76.184L92.3508 70.496H85.9668L84.0228 75.536L86.1828 76.496V77H81.0467ZM86.1588 69.992H92.1828L89.3028 61.544L86.1588 69.992ZM108.343 77.48C106.599 77.48 105.071 77.056 103.759 76.208C102.447 75.36 101.431 74.176 100.711 72.656C100.007 71.136 99.6554 69.384 99.6554 67.4C99.6554 65.416 100.031 63.664 100.783 62.144C101.535 60.624 102.583 59.44 103.927 58.592C105.287 57.744 106.839 57.32 108.583 57.32C110.231 57.32 111.623 57.736 112.759 58.568L114.223 57.32H114.727V63.272H114.223L112.639 59.312C111.487 58.352 110.135 57.872 108.583 57.872C107.463 57.872 106.455 58.16 105.559 58.736C104.679 59.312 103.983 60.152 103.471 61.256C102.975 62.36 102.727 63.672 102.727 65.192V69.584C102.727 71.104 102.959 72.416 103.423 73.52C103.903 74.624 104.559 75.472 105.391 76.064C106.239 76.64 107.223 76.928 108.343 76.928C109.719 76.928 110.783 76.504 111.535 75.656C112.303 74.808 112.687 73.672 112.687 72.248V70.016L110.455 69.68V69.152H117.631V69.68L115.399 70.016V72.248C115.399 73.16 115.151 74.016 114.655 74.816C114.159 75.6 113.383 76.24 112.327 76.736C111.271 77.232 109.943 77.48 108.343 77.48ZM118.843 77V76.496L121.051 76.136V58.664L118.843 58.328V57.8H133.291V63.296H132.643L130.795 58.4H123.691V67.04H126.811L128.227 63.56H128.851V71.144H128.227L126.787 67.616H123.691V76.424H131.227L133.195 71.144H133.819V77H118.843Z" fill="white" />
+						</svg>
+					</a>
+				</div>
+
+			</div>
+			<div class="offcanvas-body ">
+				<ul class="rta-menu text-white  d-flex align-items-center flex-column gap-3 list-unstyled text-capitalize fs-20 fw-medium text-white">
+					<li>
+						<a href="index.html" class="text-white fs-2" target="_blank" title="home">home</a>
+					</li>
+					<li>
+						<a href="about-us.html" class="text-white   fs-2" target="_blank" title="about us">abouts us</a>
+					</li>
+					<li>
+						<a href="services.html" class="text-white fs-2" target="_blank" class="text-decoration-none" title="menu">services</a>
+					</li>
+					<li>
+						<a href="cases.html" class="text-white active fs-2" target="_blank" class="text-decoration-none" title="gallery">cases</a>
+					</li>
+					<li>
+						<a href="latest-news.html" class="text-white fs-2" target="_blank" class="text-decoration-none" title="blog">blog</a>
+					</li>
+					<li>
+						<a href="contact-us.html" class="text-white active fs-2" target="_blank" class="text-decoration-none" title="blog">contact us</a>
+					</li>
+					<li>
+				</ul>
+			</div>
+		</div>
+		<header class="avt-header py-1">
+			<div class="container">
+				<div class="avt-header-wrapper d-flex justify-content-between align-items-center">
+					<a href="index.html" aria-label="brand-logo" class="avt-brand-logo">
+						<svg width="136" height="86" viewBox="0 0 136 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M64.4688 3.03363C63.3996 3.03363 62.3742 3.45835 61.6182 4.21436C60.8622 4.97036 60.4375 5.99573 60.4375 7.06488V8.40863H51.0312C49.9621 8.40863 48.9367 8.83335 48.1807 9.58936C47.4247 10.3454 47 11.3707 47 12.4399V16.1594L67.4626 21.615C68.1424 21.796 68.8576 21.796 69.5374 21.615L90 16.1594V12.4399C90 11.3707 89.5753 10.3454 88.8193 9.58936C88.0633 8.83335 87.0379 8.40863 85.9688 8.40863H76.5625V7.06488C76.5625 5.99573 76.1378 4.97036 75.3818 4.21436C74.6258 3.45835 73.6004 3.03363 72.5312 3.03363H64.4688ZM64.4688 5.72113H72.5312C72.8876 5.72113 73.2294 5.8627 73.4814 6.11471C73.7334 6.36671 73.875 6.7085 73.875 7.06488V8.40863H63.125V7.06488C63.125 6.7085 63.2666 6.36671 63.5186 6.11471C63.7706 5.8627 64.1124 5.72113 64.4688 5.72113Z" fill="#5C8374" />
+							<path d="M47 36.9351C47 38.0043 47.4247 39.0296 48.1807 39.7856C48.9367 40.5416 49.9621 40.9664 51.0312 40.9664H85.9688C87.0379 40.9664 88.0633 40.5416 88.8193 39.7856C89.5753 39.0296 90 38.0043 90 36.9351V21.7507L68.8467 27.3864C68.6195 27.4471 68.3805 27.4471 68.1533 27.3864L47 21.7507V36.9351Z" fill="#93B1A6" />
+							<path d="M0.328 77V76.496L2.68 75.536L9.616 57.32H10L16.552 76.136L18.76 76.496V77H11.704V76.496L13.672 76.184L11.632 70.496H5.248L3.304 75.536L5.464 76.496V77H0.328ZM5.44 69.992H11.464L8.584 61.544L5.44 69.992ZM23.9954 77.48L17.0834 58.664L15.1634 58.328V57.8H22.1954V58.328L19.9394 58.616L25.2194 72.992L30.4034 59.408L27.6434 58.328V57.8H32.8034V58.328L31.0514 59.384L24.1874 77.48H23.9954ZM29.1327 77V76.496L31.4847 75.536L38.4207 57.32H38.8047L45.3567 76.136L47.5647 76.496V77H40.5087V76.496L42.4767 76.184L40.4367 70.496H34.0527L32.1087 75.536L34.2687 76.496V77H29.1327ZM34.2447 69.992H40.2687L37.3887 61.544L34.2447 69.992ZM48.0867 77V76.496L50.3187 75.536V59.264L48.0867 58.328V57.8H52.5507L62.8947 72.296V59.264L60.6627 58.328V57.8H65.7747V58.328L63.4947 59.264V77H62.8947L50.9187 60.176V75.536L53.2227 76.496V77H48.0867ZM71.4736 77V76.496L73.6816 76.136V58.4H69.7216L67.8976 63.152H67.2016V57.8H82.8256V63.152H82.1056L80.3056 58.4H76.3216V76.136L78.5296 76.496V77H71.4736ZM81.0467 77V76.496L83.3988 75.536L90.3348 57.32H90.7188L97.2708 76.136L99.4788 76.496V77H92.4228V76.496L94.3907 76.184L92.3508 70.496H85.9668L84.0228 75.536L86.1828 76.496V77H81.0467ZM86.1588 69.992H92.1828L89.3028 61.544L86.1588 69.992ZM108.343 77.48C106.599 77.48 105.071 77.056 103.759 76.208C102.447 75.36 101.431 74.176 100.711 72.656C100.007 71.136 99.6554 69.384 99.6554 67.4C99.6554 65.416 100.031 63.664 100.783 62.144C101.535 60.624 102.583 59.44 103.927 58.592C105.287 57.744 106.839 57.32 108.583 57.32C110.231 57.32 111.623 57.736 112.759 58.568L114.223 57.32H114.727V63.272H114.223L112.639 59.312C111.487 58.352 110.135 57.872 108.583 57.872C107.463 57.872 106.455 58.16 105.559 58.736C104.679 59.312 103.983 60.152 103.471 61.256C102.975 62.36 102.727 63.672 102.727 65.192V69.584C102.727 71.104 102.959 72.416 103.423 73.52C103.903 74.624 104.559 75.472 105.391 76.064C106.239 76.64 107.223 76.928 108.343 76.928C109.719 76.928 110.783 76.504 111.535 75.656C112.303 74.808 112.687 73.672 112.687 72.248V70.016L110.455 69.68V69.152H117.631V69.68L115.399 70.016V72.248C115.399 73.16 115.151 74.016 114.655 74.816C114.159 75.6 113.383 76.24 112.327 76.736C111.271 77.232 109.943 77.48 108.343 77.48ZM118.843 77V76.496L121.051 76.136V58.664L118.843 58.328V57.8H133.291V63.296H132.643L130.795 58.4H123.691V67.04H126.811L128.227 63.56H128.851V71.144H128.227L126.787 67.616H123.691V76.424H131.227L133.195 71.144H133.819V77H118.843Z" fill="white" />
+						</svg>
+					</a>
+
+
+					<ul class="avt-menu text-white d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none d-none gap-xxl-2 gap-xl-2 gap-lg-1 gap-md-0 gap-sm-0 gap-0 list-unstyled fs-20 fw-ragular">
+						<li><a href="index.html" aria-label="home" class="text-decoration-none  fw-ragular">Home</a></li>
+						<li><a href="about-us.html" aria-label="about-us" class="text-decoration-nonefw-ragular">About us</a></li>
+						<li><a href="services.html" aria-label="services" class="text-decoration-none fw-ragular">Services</a></li>
+						<li><a href="cases.html" aria-label="cases" class="text-decoration-none active  fw-ragular">Cases</a></li>
+						<li><a href="blog.html" aria-label="blog" class="text-decoration-none fw-ragular">Blog</a></li>
+						<li><a href="contact-us.html" aria-label="blog" class="text-decoration-none fw-ragular">Contact us</a></li>
+					</ul>
+					<a href="tel: 9998 3233 35" aria-label="telephone" class="btn btn-primary rounded-0 d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none d-none	gap-1 align-items-center text-white fs-20"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.88498 0.510536C2.05996 0.335825 2.27006 0.200295 2.50138 0.112926C2.7327 0.0255582 2.97994 -0.0116528 3.22672 0.00375942C3.47351 0.0191716 3.7142 0.0868551 3.93285 0.202325C4.15149 0.317794 4.34311 0.478413 4.49498 0.673537L6.28998 2.97954C6.61898 3.40254 6.73498 3.95354 6.60498 4.47354L6.05798 6.66354C6.0297 6.77697 6.03123 6.89578 6.06242 7.00845C6.09361 7.12111 6.1534 7.2238 6.23598 7.30654L8.69298 9.76354C8.77582 9.84629 8.87868 9.90618 8.99153 9.93737C9.10439 9.96857 9.22341 9.97 9.33698 9.94154L11.526 9.39454C11.7826 9.33038 12.0504 9.32539 12.3093 9.37996C12.5681 9.43453 12.8111 9.54723 13.02 9.70954L15.326 11.5035C16.155 12.1485 16.231 13.3735 15.489 14.1145L14.455 15.1485C13.715 15.8885 12.609 16.2135 11.578 15.8505C8.93917 14.9221 6.54325 13.4114 4.56798 11.4305C2.58727 9.45555 1.07659 7.06 0.147983 4.42154C-0.214017 3.39154 0.110983 2.28454 0.850983 1.54454L1.88498 0.510536Z" fill="white" />
+						</svg>
+						+9998 3233 35</a>
+					<button class="btn p-15 d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex bg-white text-primary justify-content-center align-items-center  d-flex " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="entry-header">
+				<div class="avt-cases-banner">
+					<div class="container">
+						<div class="entry-header-content pt-xxl-200 pt-xl-200 pt-lg-150 pt-md-150 pt-sm-150 pt-150 pb-xxl-222 pb-xl-200 pb-lg-150 pb-md-150 pb-sm-10 pb-10 d-flex flex-column gap-1 justify-content-between align-items-center">
+							<h1 class="h1 text-white fw-extra-bold">Cases</h1>
+							<div class="avt-nav-wrap d-flex gap-2 align-items-center">
+								<a href="index.html" class="fs-20 fw-ragular text-white text-decoration-none">Home</a>
+								<span" class="fs-20 fw-ragular text-white text-decoration-none">Cases</span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="entry-content">
+				<div class="container">
+					<div class="avt-servises-wrapper mt-xxl-10 mt-xl-9 mt-lg-8 mt-md-5 mt-sm-3 mt-2 ">
+						<ul class="d-flex flex-wrap gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 align-items-center mb-2">
+							<li class="fs-20 fw-ragular  text-decoration-none"><a href="#">All</a></li>
+							<li><a href="#" class="fs-20 fw-ragular  text-decoration-none">Business growth</a></li>
+							<li><a href="#" class="fs-20 fw-ragular  text-decoration-none">Consumer product</a></li>
+							<li><a href="#" class="fs-20 fw-ragular  text-decoration-none">Energy & environment</a></li>
+							<li><a href="#" class="fs-20 fw-ragular  text-decoration-none">Insurance sector</a></li>
+							<li><a href="#" class="fs-20 fw-ragular  text-decoration-none">Transport & avaition</a></li>
+						</ul>
+
+						<div class="row row-cols-xxl-3 row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-1 row-cols-1 row-gap-2">
+							<div class="col">
+								<div class="card d-flex flex-column gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 border-0">
+									<img src="assets/media/cases-1.webp" width="524" height="300" class="card-img-top img-fluid rounded-0" alt="servises">
+									<div class="card-body py-2 text-center">
+										<h2 class="h5 fw-bold  mb-1">Seving planning</h2>
+										<span class="fs-16 fw-ragular ">Business analysis</span>
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div class="card d-flex flex-column  gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 border-0">
+									<img src="assets/media/cases-2.webp" width="524" height="300" class="card-img-top img-fluid rounded-0" alt="servises">
+									<div class="card-body py-2 text-center">
+										<h2 class="h5 fw-bold  mb-1">Seving planning</h2>
+										<span class="fs-16 fw-ragular">Business analysis</span>
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div class="card d-flex flex-column gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 border-0">
+									<img src="assets/media/cases-3.webp" width="524" height="300" class="card-img-top img-fluid rounded-0" alt="servises">
+									<div class="card-body py-2 text-center">
+										<h2 class="h5 fw-bold  mb-1">Seving planning</h2>
+										<span class="fs-16 fw-ragular ">Business analysis</span>
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div class="card d-flex flex-column gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 border-0">
+									<img src="assets/media/cases-4.webp" width="524" height="300" class="card-img-top img-fluid rounded-0" alt="servises">
+									<div class="card-body py-2 text-center">
+										<h2 class="h5 fw-bold mb-1">Seving planning</h2>
+										<span class="fs-16 fw-ragular">Business analysis</span>
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div class="card d-flex flex-column gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 border-0">
+									<img src="assets/media/cases-5.webp" width="524" height="300" class="card-img-top img-fluid rounded-0" alt="servises">
+									<div class="card-body py-2 text-center">
+										<h2 class="h5 fw-bold mb-1">Seving planning</h2>
+										<span class="fs-16 fw-ragular">Business analysis</span>
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div class="card d-flex flex-column gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 border-0">
+									<img src="assets/media/cases-6.webp" width="524" height="300" class="card-img-top img-fluid rounded-0" alt="servises">
+									<div class="card-body py-2 text-center">
+										<h2 class="h5 fw-bold mb-1">Seving planning</h2>
+										<span class="fs-16 fw-ragular">Business analysis</span>
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div class="card d-flex flex-column gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 border-0">
+									<img src="assets/media/cases-7.webp" width="524" height="300" class="card-img-top img-fluid rounded-0" alt="servises">
+									<div class="card-body py-2 text-center">
+										<h2 class="h5 fw-bold mb-1">Seving planning</h2>
+										<span class="fs-16 fw-ragular">Business analysis</span>
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div class="card d-flex flex-column gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 border-0">
+									<img src="assets/media/cases-8.webp" width="524" height="300" class="card-img-top img-fluid rounded-0" alt="servises">
+									<div class="card-body py-2 text-center">
+										<h2 class="h5 fw-bold mb-1">Seving planning</h2>
+										<span class="fs-16 fw-ragular">Business analysis</span>
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div class="card d-flex flex-column gap-xxl-2 gap-xl-2 gap-lg-2 gap-md-2 gap-sm-1 gap-1 border-0">
+									<img src="assets/media/cases-9.webp" width="524" height="300" class="card-img-top img-fluid rounded-0" alt="servises">
+									<div class="card-body py-2 text-center">
+										<h2 class="h5 fw-bold  mb-1">Seving planning</h2>
+										<span class="fs-16 fw-ragular ">Business analysis</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</main>
+		<footer class="avt-footer bg-black mt-xxl-10 mt-xl-9 mt-lg-8 mt-md-6 mt-sm-3 mt-2 pt-xxl-10 pt-xl-9 pt-lg-6 pt-md-4 pt-sm-3 pt-2 pb-xxl-5 pb-xl-4 pb-md-4 pb-sm-3 pb-2">
+			<div class="container">
+				<div class="row row-gap-xxl-0 row-gap-xl-0 row-gap-lg-0 row-gap-md-2 row-gap-sm-2 row-gap-2">
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="avt-footer-logo mb-2">
+							<a href="index.html" aria-label="footer-brand">
+								<svg width="136" height="86" viewBox="0 0 136 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M64.4688 3.03369C63.3996 3.03369 62.3742 3.45841 61.6182 4.21442C60.8622 4.97042 60.4375 5.99579 60.4375 7.06494V8.40869H51.0312C49.9621 8.40869 48.9367 8.83341 48.1807 9.58942C47.4247 10.3454 47 11.3708 47 12.4399V16.1594L67.4626 21.6151C68.1424 21.7961 68.8576 21.7961 69.5374 21.6151L90 16.1594V12.4399C90 11.3708 89.5753 10.3454 88.8193 9.58942C88.0633 8.83341 87.0379 8.40869 85.9688 8.40869H76.5625V7.06494C76.5625 5.99579 76.1378 4.97042 75.3818 4.21442C74.6258 3.45841 73.6004 3.03369 72.5312 3.03369H64.4688ZM64.4688 5.72119H72.5312C72.8876 5.72119 73.2294 5.86276 73.4814 6.11477C73.7334 6.36677 73.875 6.70856 73.875 7.06494V8.40869H63.125V7.06494C63.125 6.70856 63.2666 6.36677 63.5186 6.11477C63.7706 5.86276 64.1124 5.72119 64.4688 5.72119Z" fill="#5C8374" />
+									<path d="M47 36.9354C47 38.0045 47.4247 39.0299 48.1807 39.7859C48.9367 40.5419 49.9621 40.9666 51.0312 40.9666H85.9688C87.0379 40.9666 88.0633 40.5419 88.8193 39.7859C89.5753 39.0299 90 38.0045 90 36.9354V21.751L68.8467 27.3867C68.6195 27.4473 68.3805 27.4473 68.1533 27.3867L47 21.751V36.9354Z" fill="#93B1A6" />
+									<path d="M0.328 77V76.496L2.68 75.536L9.616 57.32H10L16.552 76.136L18.76 76.496V77H11.704V76.496L13.672 76.184L11.632 70.496H5.248L3.304 75.536L5.464 76.496V77H0.328ZM5.44 69.992H11.464L8.584 61.544L5.44 69.992ZM23.9954 77.48L17.0834 58.664L15.1634 58.328V57.8H22.1954V58.328L19.9394 58.616L25.2194 72.992L30.4034 59.408L27.6434 58.328V57.8H32.8034V58.328L31.0514 59.384L24.1874 77.48H23.9954ZM29.1327 77V76.496L31.4847 75.536L38.4207 57.32H38.8047L45.3567 76.136L47.5647 76.496V77H40.5087V76.496L42.4767 76.184L40.4367 70.496H34.0527L32.1087 75.536L34.2687 76.496V77H29.1327ZM34.2447 69.992H40.2687L37.3887 61.544L34.2447 69.992ZM48.0867 77V76.496L50.3187 75.536V59.264L48.0867 58.328V57.8H52.5507L62.8947 72.296V59.264L60.6627 58.328V57.8H65.7747V58.328L63.4947 59.264V77H62.8947L50.9187 60.176V75.536L53.2227 76.496V77H48.0867ZM71.4736 77V76.496L73.6816 76.136V58.4H69.7216L67.8976 63.152H67.2016V57.8H82.8256V63.152H82.1056L80.3056 58.4H76.3216V76.136L78.5296 76.496V77H71.4736ZM81.0467 77V76.496L83.3988 75.536L90.3348 57.32H90.7188L97.2708 76.136L99.4788 76.496V77H92.4228V76.496L94.3907 76.184L92.3508 70.496H85.9668L84.0228 75.536L86.1828 76.496V77H81.0467ZM86.1588 69.992H92.1828L89.3028 61.544L86.1588 69.992ZM108.343 77.48C106.599 77.48 105.071 77.056 103.759 76.208C102.447 75.36 101.431 74.176 100.711 72.656C100.007 71.136 99.6554 69.384 99.6554 67.4C99.6554 65.416 100.031 63.664 100.783 62.144C101.535 60.624 102.583 59.44 103.927 58.592C105.287 57.744 106.839 57.32 108.583 57.32C110.231 57.32 111.623 57.736 112.759 58.568L114.223 57.32H114.727V63.272H114.223L112.639 59.312C111.487 58.352 110.135 57.872 108.583 57.872C107.463 57.872 106.455 58.16 105.559 58.736C104.679 59.312 103.983 60.152 103.471 61.256C102.975 62.36 102.727 63.672 102.727 65.192V69.584C102.727 71.104 102.959 72.416 103.423 73.52C103.903 74.624 104.559 75.472 105.391 76.064C106.239 76.64 107.223 76.928 108.343 76.928C109.719 76.928 110.783 76.504 111.535 75.656C112.303 74.808 112.687 73.672 112.687 72.248V70.016L110.455 69.68V69.152H117.631V69.68L115.399 70.016V72.248C115.399 73.16 115.151 74.016 114.655 74.816C114.159 75.6 113.383 76.24 112.327 76.736C111.271 77.232 109.943 77.48 108.343 77.48ZM118.843 77V76.496L121.051 76.136V58.664L118.843 58.328V57.8H133.291V63.296H132.643L130.795 58.4H123.691V67.04H126.811L128.227 63.56H128.851V71.144H128.227L126.787 67.616H123.691V76.424H131.227L133.195 71.144H133.819V77H118.843Z" fill="white" />
+								</svg>
+							</a>
+						</div>
+						<h2 class="h5 text-white fw-bold mb-2">We help our clients archive</h2>
+						<p class="fs-16 text-white fw-ragular mb-2">Lorem ipsum dolor sit amet, mea ei viderer probatus consequuntur, sonet vocibus lobortis has ad.</p>
+						<div class="avt-footer-icon-wrapper d-flex gap-1 align-items-center">
+							<a href="#" aria-label="Twitter" title="Twitter"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M19.6875 1.17188H23.5219L15.1469 10.7688L25 23.8281H17.2859L11.2438 15.9063L4.32969 23.8281H0.49375L9.45156 13.5625L0 1.17188H7.91094L13.3719 8.41094L19.6875 1.17188ZM18.3437 21.5281H20.4688L6.75469 3.35156H4.47656L18.3437 21.5281Z" fill="white" />
+								</svg>
+							</a>
+
+							</a>
+							<a href="#" aria-label="Instagram" title="Instagram"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_142_6)">
+										<path d="M12.5 0C9.10781 0 8.68125 0.015625 7.34844 0.075C6.01563 0.1375 5.10781 0.346875 4.3125 0.65625C3.47827 0.97003 2.72264 1.46223 2.09844 2.09844C1.46262 2.72296 0.97048 3.4785 0.65625 4.3125C0.346875 5.10625 0.135938 6.01562 0.075 7.34375C0.015625 8.67969 0 9.10469 0 12.5016C0 15.8953 0.015625 16.3203 0.075 17.6531C0.1375 18.9844 0.346875 19.8922 0.65625 20.6875C0.976562 21.5094 1.40313 22.2062 2.09844 22.9016C2.79219 23.5969 3.48906 24.025 4.31094 24.3437C5.10781 24.6531 6.01406 24.8641 7.34531 24.925C8.67969 24.9844 9.10469 25 12.5 25C15.8953 25 16.3188 24.9844 17.6531 24.925C18.9828 24.8625 19.8938 24.6531 20.6891 24.3437C21.5228 24.0298 22.2778 23.5376 22.9016 22.9016C23.5969 22.2062 24.0234 21.5094 24.3437 20.6875C24.6516 19.8922 24.8625 18.9844 24.925 17.6531C24.9844 16.3203 25 15.8953 25 12.5C25 9.10469 24.9844 8.67969 24.925 7.34531C24.8625 6.01563 24.6516 5.10625 24.3437 4.3125C24.0296 3.47848 23.5374 2.72293 22.9016 2.09844C22.2775 1.46199 21.5219 0.969758 20.6875 0.65625C19.8906 0.346875 18.9812 0.135938 17.6516 0.075C16.3172 0.015625 15.8938 0 12.4969 0H12.5016H12.5ZM11.3797 2.25313H12.5016C15.8391 2.25313 16.2344 2.26406 17.5516 2.325C18.7703 2.37969 19.4328 2.58438 19.8734 2.75469C20.4562 2.98125 20.8734 3.25312 21.3109 3.69062C21.7484 4.12812 22.0188 4.54375 22.2453 5.12813C22.4172 5.56719 22.6203 6.22969 22.675 7.44844C22.7359 8.76563 22.7484 9.16094 22.7484 12.4969C22.7484 15.8328 22.7359 16.2297 22.675 17.5469C22.6203 18.7656 22.4156 19.4266 22.2453 19.8672C22.0449 20.4099 21.725 20.9007 21.3094 21.3031C20.8719 21.7406 20.4563 22.0109 19.8719 22.2375C19.4344 22.4094 18.7719 22.6125 17.5516 22.6688C16.2344 22.7281 15.8391 22.7422 12.5016 22.7422C9.16406 22.7422 8.76719 22.7281 7.45 22.6688C6.23125 22.6125 5.57031 22.4094 5.12969 22.2375C4.58672 22.0374 4.09551 21.7181 3.69219 21.3031C3.27617 20.9001 2.95582 20.4088 2.75469 19.8656C2.58438 19.4266 2.37969 18.7641 2.325 17.5453C2.26563 16.2281 2.25313 15.8328 2.25313 12.4937C2.25313 9.15625 2.26563 8.7625 2.325 7.44531C2.38125 6.22656 2.58438 5.56406 2.75625 5.12344C2.98281 4.54063 3.25469 4.12344 3.69219 3.68594C4.12969 3.24844 4.54531 2.97813 5.12969 2.75156C5.57031 2.57969 6.23125 2.37656 7.45 2.32031C8.60313 2.26719 9.05 2.25156 11.3797 2.25V2.25313ZM19.1734 4.32812C18.9765 4.32812 18.7814 4.36692 18.5994 4.44231C18.4174 4.51769 18.2521 4.62818 18.1128 4.76746C17.9735 4.90675 17.863 5.07211 17.7876 5.2541C17.7122 5.43609 17.6734 5.63114 17.6734 5.82813C17.6734 6.02511 17.7122 6.22016 17.7876 6.40215C17.863 6.58414 17.9735 6.7495 18.1128 6.88879C18.2521 7.02807 18.4174 7.13856 18.5994 7.21394C18.7814 7.28933 18.9765 7.32813 19.1734 7.32813C19.5713 7.32813 19.9528 7.17009 20.2341 6.88879C20.5154 6.60748 20.6734 6.22595 20.6734 5.82813C20.6734 5.4303 20.5154 5.04877 20.2341 4.76746C19.9528 4.48616 19.5713 4.32812 19.1734 4.32812ZM12.5016 6.08125C11.6501 6.06797 10.8045 6.2242 10.014 6.54085C9.22353 6.85749 8.50393 7.32824 7.89711 7.92566C7.29029 8.52309 6.80838 9.23526 6.47944 10.0207C6.1505 10.8062 5.98109 11.6492 5.98109 12.5008C5.98109 13.3523 6.1505 14.1954 6.47944 14.9808C6.80838 15.7663 7.29029 16.4785 7.89711 17.0759C8.50393 17.6733 9.22353 18.1441 10.014 18.4607C10.8045 18.7774 11.6501 18.9336 12.5016 18.9203C14.1868 18.894 15.7941 18.2061 16.9765 17.0051C18.159 15.804 18.8217 14.1862 18.8217 12.5008C18.8217 10.8154 18.159 9.19752 16.9765 7.99648C15.7941 6.79545 14.1868 6.10754 12.5016 6.08125ZM12.5016 8.33281C13.6068 8.33281 14.6667 8.77185 15.4482 9.55335C16.2297 10.3349 16.6688 11.3948 16.6688 12.5C16.6688 13.6052 16.2297 14.6651 15.4482 15.4466C14.6667 16.2281 13.6068 16.6672 12.5016 16.6672C11.3964 16.6672 10.3364 16.2281 9.55492 15.4466C8.77342 14.6651 8.33438 13.6052 8.33438 12.5C8.33438 11.3948 8.77342 10.3349 9.55492 9.55335C10.3364 8.77185 11.3964 8.33281 12.5016 8.33281Z" fill="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_142_6">
+											<rect width="25" height="25" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+							<a href="#" aria-label="LinkedIn" title="LinkedIn"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_142_4)">
+										<path d="M0 1.79063C0 0.801563 0.821875 0 1.83594 0H23.1641C24.1781 0 25 0.801563 25 1.79063V23.2094C25 24.1984 24.1781 25 23.1641 25H1.83594C0.821875 25 0 24.1984 0 23.2094V1.79063ZM7.72344 20.9281V9.63906H3.97188V20.9281H7.72344ZM5.84844 8.09688C7.15625 8.09688 7.97031 7.23125 7.97031 6.14688C7.94687 5.03906 7.15781 4.19688 5.87344 4.19688C4.58906 4.19688 3.75 5.04063 3.75 6.14688C3.75 7.23125 4.56406 8.09688 5.82344 8.09688H5.84844ZM13.5172 20.9281V14.6234C13.5172 14.2859 13.5422 13.9484 13.6422 13.7078C13.9125 13.0344 14.5297 12.3359 15.5672 12.3359C16.925 12.3359 17.4672 13.3703 17.4672 14.8891V20.9281H21.2187V14.4531C21.2187 10.9844 19.3688 9.37188 16.9 9.37188C14.9094 9.37188 14.0172 10.4656 13.5172 11.2359V11.275H13.4922C13.5005 11.262 13.5088 11.2489 13.5172 11.2359V9.63906H9.76719C9.81406 10.6984 9.76719 20.9281 9.76719 20.9281H13.5172Z" fill="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_142_4">
+											<rect width="25" height="25" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+							<a href="#" aria-label="skype" title="skype"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_142_10)">
+										<path d="M7.41204 0C8.78704 0 10.1198 0.385937 11.2683 1.09687C12.9836 0.914305 14.718 1.11664 16.3452 1.68913C17.9724 2.26163 19.4514 3.18987 20.6745 4.40625C21.7468 5.47528 22.5977 6.7452 23.1787 8.14339C23.7597 9.54158 24.0593 11.0406 24.0605 12.5547C24.0605 13.0922 24.023 13.6281 23.948 14.1578C24.5608 15.2458 24.8836 16.4731 24.8855 17.7219C24.8855 18.6785 24.6964 19.6257 24.329 20.509C23.9616 21.3923 23.4233 22.1943 22.7449 22.8687C21.3745 24.2353 19.5176 25.0018 17.5824 25C16.2699 25 14.9917 24.6469 13.8792 23.9937C12.1417 24.2012 10.3797 24.0128 8.7253 23.4427C7.0709 22.8725 5.56695 21.9354 4.3261 20.7016C3.2542 19.6326 2.40345 18.3629 1.82247 16.965C1.2415 15.5672 0.941681 14.0685 0.940161 12.5547C0.940161 11.9875 0.980786 11.4234 1.06516 10.8656C0.276868 9.48128 -0.0339525 7.87599 0.18066 6.29746C0.395272 4.71893 1.12339 3.25489 2.25266 2.13125C3.62258 0.766909 5.47862 0.000622146 7.41204 0ZM8.11047 10.9531C8.39172 11.4359 8.78235 11.8469 9.24954 12.1547C9.86842 12.5597 10.5264 12.9015 11.2136 13.175C11.9823 13.4953 12.5777 13.7687 13.0027 13.9922C13.3605 14.1672 13.6855 14.4047 13.9636 14.6922C14.1745 14.9141 14.2917 15.2094 14.2917 15.5172C14.3005 15.7335 14.2576 15.9489 14.1666 16.1453C14.0756 16.3418 13.939 16.5137 13.7683 16.6469C13.3136 16.9531 12.7683 17.0984 12.2214 17.0594C11.6593 17.0657 11.1018 16.9562 10.5839 16.7375C10.3035 16.6129 10.0263 16.4811 9.75266 16.3422C9.47001 16.192 9.15552 16.1117 8.83547 16.1078C8.54896 16.0959 8.26879 16.1943 8.05266 16.3828C7.94936 16.481 7.86862 16.6005 7.81601 16.7329C7.76341 16.8654 7.74019 17.0077 7.74797 17.15C7.74141 17.4195 7.82257 17.6838 7.97922 17.9031C8.16818 18.1427 8.41275 18.3326 8.69172 18.4562C9.78086 18.9286 10.9616 19.1522 12.148 19.1109C13.0119 19.1281 13.8718 18.9878 14.6855 18.6969C15.3603 18.4574 15.948 18.0216 16.373 17.4453C16.7902 16.8359 17.0011 16.1094 16.9761 15.3719C16.9924 14.7692 16.8415 14.1738 16.5402 13.6516C16.2343 13.1551 15.8223 12.7326 15.3339 12.4141C14.7149 12.0147 14.0581 11.6772 13.373 11.4062C13.2998 11.3705 13.2241 11.3402 13.1464 11.3156C12.6118 11.0989 12.084 10.866 11.5636 10.6172C11.2478 10.4689 10.9618 10.2639 10.7198 10.0125C10.5165 9.79856 10.4044 9.51388 10.4073 9.21875C10.3973 8.99385 10.4479 8.77038 10.5537 8.57167C10.6595 8.37296 10.8167 8.2063 11.0089 8.08906C11.4652 7.81702 11.9906 7.68298 12.5214 7.70312C12.9277 7.69844 13.3339 7.75 13.7277 7.85312C14.1558 7.97656 14.5745 8.12969 14.9808 8.31094C15.1449 8.3875 15.3245 8.42812 15.5058 8.42969C15.638 8.43294 15.7695 8.40817 15.8915 8.35701C16.0135 8.30584 16.1232 8.22943 16.2136 8.13281C16.4063 7.92194 16.5075 7.6432 16.4949 7.35781C16.4995 7.08587 16.4051 6.82152 16.2292 6.61406C15.9888 6.36193 15.6906 6.17209 15.3605 6.06094C15.0021 5.92923 14.6315 5.83345 14.2542 5.775C13.7264 5.68862 13.1922 5.64784 12.6573 5.65312C11.8401 5.64793 11.0281 5.78432 10.2573 6.05625C9.54841 6.29535 8.91547 6.71803 8.42297 7.28125C7.94919 7.84224 7.69885 8.5582 7.71985 9.29219C7.70422 9.87031 7.8386 10.4422 8.11047 10.9531Z" fill="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_142_10">
+											<rect width="25" height="25" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+						</div>
+
+					</div>
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+						<h3 class="h5 text-capitalize  text-white fw-bold mb-2">Explore</h3>
+						<ul class="d-flex gap-1 flex-column">
+							<li><a href="index.html" aria-label="home" class="fs-16 fw-ragular  text-decoration-none">Home</a></li>
+							<li><a href="about-us.html" aria-label="about about-us class=" fs-16 fw-ragular text-decoration-none">About us</a></li>
+							<li><a href="services.html" aria-label="servises" class="fs-16 fw-ragular  text-decoration-none">Services</a></li>
+							<li><a href="cases.html" aria-label="cases" class="fs-16 fw-ragular  text-decoration-none">Cases</a></li>
+							<li><a href="blog.html" aria-label="blog" class="fs-16 fw-ragular  text-decoration-none">Blog</a></li>
+							<li><a href="blog.html" aria-label="contact us" class="fs-16 fw-ragular  text-decoration-none">Contact us</a></li>
+						</ul>
+					</div>
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+						<h3 class="h5 text-capitalize text-capitalize fw-bold text-white mb-2">clients</h3>
+						<ul class="d-flex gap-1 flex-column">
+							<li><a href="#" aria-label="membearship" class="fs-16 fw-ragular  text-decoration-none">Membearship login</a></li>
+							<li><a href="#" aria-label="privacy" class="fs-16 fw-ragular  text-decoration-none">Privacy policy</a></li>
+							<li><a href="#" aria-label="terms of services" class="fs-16 fw-ragular text-decoration-none">Terms of service</a></li>
+						</ul>
+					</div>
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+						<h3 class="h5 text-capitalize text-capitalize fw-bold mb-2 text-white">address</h3>
+						<a href="#" class="fs-16 text-white d-flex text-decoration-none w-100 mb-1">www.avantage.com</a>
+						<span class="fs-16 fw-ragular text-white">123 Fifth floor east 26th street, new york, ny 10011</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<section class="copy-right-wapper py-2 bg-white">
+			<div class="container">
+				<div class="rta-copy-right-wrapper flex-wrap d-flex justify-content-between">
+					<span class="rta-rightsreserved  fw-ragular  text-black fs-16">© 2023 avantage. All rightsreserved.</span>
+					<a href="#" class="text-muted text-decoration-none text-black fs-16">Privacy Policty Terms & Conditions</a>
+				</div>
+			</div>
+		</section>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+		<script src="assets/js/myscript.js"></script>
+	</body>
+</html>

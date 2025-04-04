@@ -1,0 +1,17 @@
+.#{$prefix}we-are-expert-marketing {
+	background: url(../../assets/media/we-are-expert-in-marketing.webp);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.overlay {
+		background: rgba($color: $primary, $alpha: 0.8);
+	}
+}
+
+.#{$prefix}we-are-exprt-marketing-right-content {
+	background: url(../../assets/media/we-are-expert-in-marketing-left.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

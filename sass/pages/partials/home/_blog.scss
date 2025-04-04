@@ -1,0 +1,19 @@
+.#{$prefix}blog {
+	.#{$prefix}letest-blog-wrapper {
+		.#{$prefix}letest-blog-img {
+			img {
+				-webkit-filter: grayscale(100%);
+				filter: grayscale(100%);
+				-webkit-transition: 0.3s ease-in-out;
+				transition: 0.3s ease-in-out;
+			}
+		}
+	}
+	.#{$prefix}letest-blog-img-content {
+		top: 0;
+	}
+}
+.#{$prefix}letest-blog-wrapper:hover .#{$prefix}letest-blog-img img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
